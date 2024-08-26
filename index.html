@@ -2,10 +2,83 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="scss/bootstrap.scss" />
-
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 		<title>Alan Webb</title>
 	</head>
-	<body></body>
+	<body id="home">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">
+					<img src="./images/alan-webb-logo.png" alt="Alan Webb logo" width="100" />
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a href="#about" aria-current="page" class="nav-link">About</a>
+						</li>
+						<li class="nav-item">
+							<a href="#projects" class="nav-link">projects</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link">Contact</a>
+						</li>
+					</ul>
+					<span class="nav-item">
+						<span class="fa-stack">
+							<a href="https://github.com/Alan-Webb/alan-webb-portfolio" target="_blank">
+								<i class="fa-brands fa-github fa-stack-1x text-white"></i>
+							</a>
+						</span>
+					</span>
+					<span class="nav-item">
+						<span class="fa-stack">
+							<a href="https://www.linkedin.com/in/alan-webb-41b1a9296/" target="_blank">
+								<i class="fa-brands fa-linkedin fa-stack-1x text-white"></i>
+							</a>
+						</span>
+					</span>
+				</div>
+			</div>
+		</nav>
+		<!-- Header -->
+		<header class="header py-7 vh-100 bg-primary">
+			<div class="container">
+				<div class="row mb-5 text-center">
+					<div class="col-12 text-container">
+						<h1 class="display-2 text-white mt-3">
+							Hi I'm Alan Webb
+						</h1>
+						<p class="lead text-white w-75 m-auto mb-4">
+							Front-end Web Developer
+						</p>
+					</div>
+				</div>
+		</header>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>
