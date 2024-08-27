@@ -1,12 +1,20 @@
 // Font
 $font-family-sans-serif: "Ubuntu Condensed", sans-serif;
 
+// Container
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 980px,
+	xxl: 1000px,
+) !default;
+
 // Colors
 $primary: #0077b6;
 $secondary: #00b4d8;
 $light: #caf0f8;
 $dark: #03045e;
-$body-bg: $light;
 
 // Spacers
 $spacer: 1rem !default;
@@ -22,11 +30,11 @@ $spacers: (
 	8: $spacer * 12,
 ) !default;
 
-$headings-margin-bottom: $spacer * 1;
+$headings-margin-bottom: $spacer * 2;
 $line-height-base: 1.7;
 
 // Navbar
-$navbar-nav-link-padding-x: 0.8rem;
+$navbar-nav-link-padding-x: 1rem;
 $navbar-padding-y: 1rem;
 $navbar-dark-color: #fff;
 
@@ -48,14 +56,5 @@ $btn-padding-x-sm: $button-padding-x;
 $navbar-toggler-border-radius: 5px;
 
 $headings-font-weight: bold;
-
-// Container
-$container-max-widths: (
-	sm: 540px,
-	md: 720px,
-	lg: 960px,
-	xl: 980px,
-	xxl: 1000px,
-) !default;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
