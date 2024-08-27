@@ -44,4 +44,10 @@
 	.navbar {
 		background: var(--bs-dark);
 	}
+	.nav-link:last-child {
+		margin-bottom: 1rem;
+	}
+	.about-content {
+		flex-direction: column;
+	}
 }
