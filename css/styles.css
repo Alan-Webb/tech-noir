@@ -31,7 +31,10 @@
 }
 
 .about-img {
-  width: 225px;
+  width: 250px;
+  box-shadow: 0 5px 5px 5px var(--bs-primary);
+  animation: animate 5s ease-in-out infinite;
+  transform: all 1s ease-in-out;
 }
 
 @media (max-width: 992px) {
@@ -43,5 +46,13 @@
   }
   .about-content {
     flex-direction: column;
+  }
+}
+@keyframes animate {
+  0%, 100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
   }
 }
