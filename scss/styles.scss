@@ -3,6 +3,10 @@
 	transition: all 0.5s ease-in-out;
 }
 
+.navbar-sticky {
+	opacity: 0.8;
+}
+
 // Header
 .header {
 	background: #151515
@@ -36,11 +40,21 @@
 
 // About
 .about-img {
-		width: 250px;
-		box-shadow: 0 5px 5px 5px var(--bs-primary);
-		animation: animate 5s ease-in-out infinite;
-		transform: all 1s ease-in-out;
-	}
+	width: 250px;
+	box-shadow: 0 5px 5px 5px var(--bs-primary);
+	animation: animate 5s ease-in-out infinite;
+	transform: all 1s ease-in-out;
+}
+
+hr {
+	display: inline-block;
+	width: 3.5rem;
+	height: 0.125rem;
+	margin-top: 0.625rem;
+	border: none;
+	background-color: var(--bs-primary);
+	opacity: 1;
+}
 
 // Media queries
 @media (max-width: 992px) {

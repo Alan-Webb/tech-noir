@@ -2,6 +2,10 @@
   transition: all 0.5s ease-in-out;
 }
 
+.navbar-sticky {
+  opacity: 0.8;
+}
+
 .header {
   background: #151515 url("https://plus.unsplash.com/premium_photo-1661963212517-830bbb7d76fc?q=80&w=1386&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center center no-repeat;
   background-size: cover;
@@ -35,6 +39,16 @@
   box-shadow: 0 5px 5px 5px var(--bs-primary);
   animation: animate 5s ease-in-out infinite;
   transform: all 1s ease-in-out;
+}
+
+hr {
+  display: inline-block;
+  width: 3.5rem;
+  height: 0.125rem;
+  margin-top: 0.625rem;
+  border: none;
+  background-color: var(--bs-primary);
+  opacity: 1;
 }
 
 @media (max-width: 992px) {
