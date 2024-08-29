@@ -1,6 +1,8 @@
 // Font
 $font-family-sans-serif: "Ubuntu Condensed", sans-serif;
 
+$headings-font-weight: bold;
+
 // Container
 $container-max-widths: (
 	sm: 540px,
@@ -54,7 +56,5 @@ $btn-padding-x-lg: $button-padding-x;
 $btn-padding-x-sm: $button-padding-x;
 
 $navbar-toggler-border-radius: 5px;
-
-$headings-font-weight: bold;
 
 @import "../node_modules/bootstrap/scss/bootstrap";

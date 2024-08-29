@@ -1,3 +1,7 @@
+body {
+  background-color: #00b4d8;
+}
+
 .navbar {
   transition: all 0.5s ease-in-out;
 }
@@ -30,14 +34,10 @@
   font-family: "lora", sans-serif;
 }
 
-.header .social {
-  bottom: 50px;
-}
-
 .about-img {
-  width: 250px;
-  box-shadow: 0 5px 5px 5px var(--bs-primary);
-  animation: animate 5s ease-in-out infinite;
+  width: 300px;
+  box-shadow: 0 0 0 5px var(--bs-primary);
+  animation: animate-border 5s ease-in-out infinite;
   transform: all 1s ease-in-out;
 }
 
@@ -51,18 +51,19 @@ hr {
   opacity: 1;
 }
 
+.card > img {
+  height: 300px;
+}
+
 @media (max-width: 992px) {
   .navbar {
     background: var(--bs-dark);
-  }
-  .nav-link:last-child {
-    margin-bottom: 1rem;
   }
   .about-content {
     flex-direction: column;
   }
 }
-@keyframes animate {
+@keyframes animate-border {
   0%, 100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
