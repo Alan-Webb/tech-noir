@@ -63,7 +63,7 @@ hr {
   opacity: 0;
   width: 52px;
   height: 52px;
-  border: 1px solid var(--bs-dark);
+  border: none;
   border-radius: 50%;
   outline: none;
   background-color: var(--bs-primary);
