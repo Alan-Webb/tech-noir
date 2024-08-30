@@ -22,8 +22,7 @@ h5 {
 
 // Header
 .header {
-	background: #151515
-		url("https://plus.unsplash.com/premium_photo-1661963874418-df1110ee39c1?q=80&w=1386&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+	background: url("https://plus.unsplash.com/premium_photo-1661963874418-df1110ee39c1?q=80&w=1386&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
 		center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -61,6 +60,10 @@ hr {
 	opacity: 1;
 }
 
+i,
+i + p {
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
 // Projects
 .card > img {
 	height: 250px;
@@ -99,6 +102,7 @@ hr {
 .show {
 	opacity: 1;
 }
+
 // Media queries
 @media (max-width: 992px) {
 	.navbar {
@@ -111,7 +115,7 @@ hr {
 }
 
 // Keyframes
-// animated hero image
+// animated image border
 @keyframes animate-border {
 	0%,
 	100% {

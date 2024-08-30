@@ -1,4 +1,4 @@
-// Navbar scroll effect and to top button
+// Navbar scroll effect and to-top button
 function userScroll() {
 	const navbar = document.querySelector(".navbar");
 	const toTopBtn = document.querySelector("#to-top");
