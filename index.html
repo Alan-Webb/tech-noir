@@ -3,315 +3,179 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="css/font-awesome.css" />
-		<link rel="stylesheet" href="css/bootstrap.css" />
-		<link rel="stylesheet" href="css/styles.css" />
-		<title>Alan Webb</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="./css/normalize.css" />
+      <link rel="stylesheet" href="./css/style.css" />
+		<title>AW Dev</title>
 	</head>
 	<body id="home">
-		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-			<div class="container">
-				<a href="index.html" class="navbar-brand fs-3">
-					<i class="fa-solid fa-code"></i><p class="lead d-inline fst-italic fs-3 fw-bold"> AW Dev</p>
+    <!-- Navbar -->
+    <div class="nav-container">
+			<nav>
+        <a href="index.html" class="nav-brand">
+					<i class="fa-solid fa-code"></i><p class="brand"> AW Dev</p>
 				</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNavDropdown"
-					aria-controls="navbarNavDropdown"
-					aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav m-auto fs-3">
-						<li class="nav-item">
-							<a href="#about" class="nav-link">About</a>
-						</li>
-						<li class="nav-item">
-							<a href="#projects" class="nav-link">Projects</a>
-						</li>
-						<li class="nav-item">
-							<a href="#contact" class="nav-link">Contact</a>
-						</li>
-					</ul>
-
-					<span class="nav-item">
-						<span class="fa-stack">
-							<a
-								href="https://github.com/Alan-Webb"
-								target="_blank"
-								rel="noopener no-referrer">
-								<i class="fa-brands fa-github fa-stack-2x text-white"></i>
-							</a>
-						</span>
-					</span>
-
-					<span class="nav-item">
-						<span class="fa-stack">
-							<a
-								href="https://www.linkedin.com/in/alan-webb-41b1a9296"
-								target="_blank"
-								rel="noopener no-referrer">
-								<i class="fa-brands fa-linkedin fa-stack-2x text-white"></i>
-							</a>
-						</span>
-					</span>
+				<ul class="nav-menu">
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<div class="nav-right">
+					<a href="https://www.linkedin.com/in/alan-webb-41b1a9296/" title="linkedIn" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-linkedin"></i></a>
+					<a href="https://github.com/Alan-Webb" title="github" target="_blank" rel="noopener no-referrer"><i class="fa-brands fa-github"></i></a>
+					<a href="mailto:webbalan91939@gmail.com" title="email me" rel="noopener no-referrer"><i class="fa-regular fa-envelope"></i></i></a>
 				</div>
-			</div>
-		</nav>
-		<!-- Header -->
-		<header class="header vh-100 text-center">
-			<div
-				class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
-				<h5 class="text-white fs-3 fw-bold text-uppercase">Hello World</h5>
-				<h1 id="typing-text" class="display-1 fw-bold text-white"></h1>
-				<p class="roles text-white text-uppercase fs-4">
-					<span>Front-end Web Developer</span>
-				</p>
-				
-				</div>
-			</div>
-		</header>
-		<!-- About -->
-	<main>
-		<section id="about" class="about bg-light py-8">
-			<div class="container">
-				<div class="text-center">
-					<h2 class="mb-4">Let me introduce myself</h2>
-					<hr class="w-25 mx-auto" />
-				</div>
-				<div class="about-content d-flex gap-5 align-items-center h-100">
-					<img
-						src="./images/profile-image.jpg"
-						class="about-img img-fluid" />
-					<p class="lead ms-5">
-						I discovered my passion for coding in the unexpected environment of
-						a genetics lab. Working with the coding language of DNA
-						inspired me to learn other coding languages and become the web
-						developer I am today. Over the past eight months I have devleoped my
-						front-end skills set and I am continuing to learn and refine skills
-						everyday. Looking forward, I am excited about the future of web
-						development and all the wonderful learning opportunities it may
-						bring. Everyday I build and revise projects and skills, both new and
-						old, so that I may make meaningful contributions to the web dev
-						industry.
-					</p>
-				</div>
-				<!-- Icons -->
-				<div class="text-center text-black mt-5 mx-auto fs-3 fw-bold">
-					<span>My Tech Stack</span>
-				</div>
-				<div class="text-container">
-					<div class="d-flex gap-5 justify-content-center flex-wrap mt-4 mx-auto">
-						<div class="flex-column">
-							<i class="fa-brands fa-html5 fa-4x text-dark"></i>
-							<p class="text-dark text-center">HTML5</p>
-						</div>
-						<div class="flex-column">
-							<i class="fa-brands fa-css3-alt fa-4x text-dark"></i>
-							<p class="text-dark text-center">CSS3</p>
-						</div>
-						<div class="flex-column">
-							<i class="fa-brands fa-js fa-4x text-dark"></i>
-							<p class="text-dark text-center">JavaScript</p>
-						</div>
-						<div class="flex-column">
-							<i class="fa-brands fa-bootstrap fa-4x text-dark"></i>
-							<p class="text-dark text-center">Bootstrap5</p>
-						</div>
-						<div class="flex-column">
-							<i class="fa-brands fa-sass fa-4x text-dark"></i>
-							<p class="text-dark text-center">Sass</p>
-						</div>
-						<div class="flex-column">
-							<i class="fa-brands fa-react fa-4x text-dark"></i>
-							<p class="text-dark text-center">React</p>
-						</div>
-						<div class="flex-column">
-							<i class="fa-brands fa-linux fa-4x text-dark"></i>
-							<p class="text-dark text-center">Linux</p>
-						</div>
+				<div class="hamburger">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
 					</div>
-				</div>
-			</section>
-		<!-- Projects -->
-		<section id="projects" class="bg-secondary">
-
-			<div class="container text-center pt-6 pb-2">
-				<div class="row">
-					<h2 class="fw-bold">Check out some of my latest projects</h2>
-					<hr class="w-25 mx-auto" />
-				</div>
-			</div>
-			
-			<div class="container mx-auto mt-3">
-				<div class="row">
-
-					<!-- Project Card 1 -->
-					<div class="col-lg-4 mx-auto mb-6">
-						<div class="card shadow-lg border-0 bg-light rounded-5">
-							<img
-								class="card-img-top rounded-top-5"
-								src="./images/vanilla-arcade.png"
-								alt="Project 1" />
-							<div class="card-body p-4 text-center">
-								<h5 class="card-title mb-3 fs-3">Coming Soon!</h5>
-								
-								<div class="mb-3">
-									<div class="badge bg-dark rounded-pill fs-6">HTML5</div>
-									<div class="badge bg-dark rounded-pill fs-6">CSS3</div>
-									<div class="badge bg-dark rounded-pill fs-6">
-										JavaScript
-									</div>
-								</div>
-								<p class="card-text fs-6">
-									A selection of classic games, lovingly crafted using vanilla HTML, CSS and JavaScript.
-								</p>
-							</div>
-							<div class="card-footer bg-transparent mx-auto">
-								<a
-									class="btn btn-outline-secondary bg-dark btn-sm text-uppercase text-white fw-bold fs-5 my-3 disabled"
-									href="https://github.com/Alan-Webb?tab=overview&from=2024-08-01&to=2024-08-28"
-									target="_blank">
-									<span class="material-icons-outlined me-1"></span>
-									View Project
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- Project Card 2 -->
-					<div class="col-lg-4 mx-auto mb-6">
-						<div class="card h-100 shadow-lg border-0 bg-light rounded-5">
-							<img
-								class="card-img-top rounded-top-5"
-								src="./images/coming-soon.jpg"
-								alt="Project 1" />
-							<div class="card-body p-4 text-center">
-								<h5 class="card-title mb-3 fs-3">Watch This Space!!</h5>
-								
-								<div class="mb-3">
-									<div class="badge bg-dark rounded-pill fs-6">HTML5</div>
-									<div class="badge bg-dark rounded-pill fs-6">CSS3</div>
-									<div class="badge bg-dark rounded-pill fs-6">
-										JavaScript
-									</div>
-								</div>
-								<p class="card-text fs-6">
-									More projects coming soon!
-								</p>
-							</div>
-							<div class="card-footer bg-transparent mx-auto">
-								<a
-									class="btn btn-outline-secondary bg-dark btn-sm text-uppercase text-white fw-bold fs-5 my-3 disabled"
-									href=""
-									target="_blank">
-									<span class="material-icons-outlined me-1"></span>
-									View Project
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- Project Card 3 -->
-					<div class="col-lg-4 mx-auto mb-6">
-						<div class="card h-100 shadow-lg border-0 bg-light rounded-5">
-							<img
-								class="card-img-top rounded-top-5"
-								src="./images/coming-soon.jpg"
-								alt="Project 1" />
-							<div class="card-body p-4 text-center">
-								<h5 class="card-title mb-3 fs-3">Watch This Space!!</h5>
-								
-								<div class="mb-3">
-									<div class="badge bg-dark rounded-pill fs-6">HTML5</div>
-									<div class="badge bg-dark rounded-pill fs-6">CSS3</div>
-									<div class="badge bg-dark rounded-pill fs-6">
-										JavaScript
-									</div>
-								</div>
-								<p class="card-text fs-6">
-									More projects coming soon!
-								</p>
-							</div>
-							<div class="card-footer bg-transparent mx-auto">
-								<a
-									class="btn btn-outline-secondary bg-dark btn-sm text-uppercase text-white fw-bold fs-5 my-3 disabled"
-									href=""
-									target="_blank">
-									<span class="material-icons-outlined me-1"></span>
-									View Project
-								</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-		<!-- Contact -->
-		<section class="contact text-bg-dark py-5" id="contact">
-			<div class="container mt-5">
-				<div class="row">
-					<div class="col-md-8 offset-md-2">
-						<div class="text-center mb-5">
-							<h4 class="text-uppercase fw-bold text-white mb-3">I'd love to hear from you</h4>
-							<hr class="w-25 mx-auto bg-white" />
-							<p class="lead mt-2">
-								If you have any questions, please
-								contact me with the form below.
-							</p>
-						</div>
-
-						<!-- Form -->
-						<form name="contact" method="post" action="#">
-							<div class="mb-5">
-								<input
-									type="text"
-									class="form-control bg-secondary border-top-0 border-start-0 border-end-0 rounded-0 border-muted"
-									name="name"
-									placeholder="Your Name" required/>
-							</div>
-							<div class="mb-5">
-								<input
-									type="email"
-									class="form-control bg-secondary border-top-0 border-start-0 border-end-0 rounded-0 border-muted"
-									name="email"
-									placeholder="Your Email" required/>
-							</div>
-							<div class="mb-5">
-								<textarea
-									class="form-control bg-secondary border-top-0 border-start-0 border-end-0 rounded-0 border-muted"
-									name="message"
-									placeholder="Your Message" required></textarea>
-							</div>
-							<div class="mb-5 d-grid">
-								<button type="submit" class="btn btn-primary fw-bold fs-4">Submit</button>
-							</div>
-						</form>
-					</div>
-				</div>
-				<!-- Footer -->
-				<div class="mt-5">
-					<p class="text-center">
-						Copyright &copy; 2024 Alan Webb
-					</p>
-				</div>
-			</div>
-
-			<button id="to-top" class="to-top-btn">
-				<img src="images/up-arrow.png" />
-			</button>
-
-		</section>
-	</main>
-		<script src="js/bootstrap.bundle.min.js"></script>
-		<script src="js/script.js"></script>
+				</div>			
+			</nav>
+		</div>
+    <!-- Header -->
+    <header>
+      <div class="header">
+        <div class="text-container" >
+        <h5 id="typing-text" class="typing-text"></h5>
+        <div class="neon-container">
+          <h1 class="alan">Alan</h1>
+          <h1 class="webb">
+            <span class="flicker-slow">W</span>e<span class="flicker-fast">b</span
+            ><span class="flicker-slow">b</span>
+          </h1>
+          </div>
+        <p class="header-text">
+          <span>Front-end Web Developer</span>
+        </p>
+      </div>
+      </div>
+    </header>
+    <main>
+    <!-- About -->
+    <section id="about">
+      <div class="about-container">
+        <h2>Let me introduce myself</h2>
+        <hr/>
+        <div class="about-content">
+          <img
+            src="./images/profile-image.jpg"
+            class="about-img" />
+          <p class="about-text">
+            I discovered my passion for coding in the unexpected environment of
+            a genetics lab. Working with the coding language of DNA
+            inspired me to learn other coding languages and become the web
+            developer I am today. Over the past eight months I have devleoped my
+            front-end skills set and I am continuing to learn and refine skills
+            everyday. Looking forward, I am excited about the future of web
+            development and all the wonderful learning opportunities it may
+            bring. Everyday I build and revise projects and skills, both new and
+            old, so that I may make meaningful contributions to the web dev
+            industry.
+          </p>
+        </div>
+        <!-- Icons -->
+        <h2 class="icon-heading">My Tech Stack</h2>
+          <hr/>
+        <div class="icon-container">
+          <div class="tech-icon">
+              <i class="fa-brands fa-html5 fa-4x"></i>
+              <p class="text-center">HTML5</p>
+            </div>
+            <div class="tech-icon">
+              <i class="fa-brands fa-css3-alt fa-4x"></i>
+              <p class="text-center">CSS3</p>
+            </div>
+            <div class="tech-icon">
+              <i class="fa-brands fa-js fa-4x"></i>
+              <p class="text-center">JavaScript</p>
+            </div>
+            <div class="tech-icon">
+              <i class="fa-brands fa-bootstrap fa-4x"></i>
+              <p class="text-center">Bootstrap5</p>
+            </div>
+            <div class="tech-icon">
+              <i class="fa-brands fa-sass fa-4x"></i>
+              <p class="text-center">Sass</p>
+            </div>
+            <div class="tech-icon">
+              <i class="fa-brands fa-react fa-4x"></i>
+              <p class="text-center">React</p>
+            </div>
+            <div class="tech-icon">
+              <i class="fa-brands fa-linux fa-4x"></i>
+              <p class="text-center">Linux</p>
+            </div>
+          </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects">
+      <div class="projects">
+        <h2>Projects</h2>
+        <hr>
+        <div class="project-container">
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="img-area">
+              <img src="./images/coming-soon.jpg" />
+              <div class="overlay">
+                <button class="view-project">View Project</button>
+              </div>
+            </div>
+            <div class="info">
+              <h3>Coming Soon !</h3>
+              <p>
+                Watch this space for more projects.
+              </p>
+            </div>
+          </div>
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="img-area">
+              <img src="./images/coming-soon.jpg" />
+              <div class="overlay">
+                <button class="view-project">View Project</button>
+              </div>
+            </div>
+            <div class="info">
+              <h3>Coming Soon !</h3>
+              <p>
+                Watch this space for more projects.
+              </p>
+            </div>
+          </div>
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <div class="img-area">
+              <img src="./images/coming-soon.jpg" />
+              <div class="overlay">
+                <button class="view-project">View Project</button>
+              </div>
+            </div>
+            <div class="info">
+              <h3>Coming Soon !</h3>
+              <p>
+                Watch this space for more projects.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <h2>I would love to hear from you</h2>
+      <p>If you have any questions or would like to work together, please
+      contact me with the form below.</p>
+    </section>
+              
+    </main>
+		<script src="script.js"></script>
 	</body>
 </html>
+ 
