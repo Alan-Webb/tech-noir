@@ -246,6 +246,7 @@ hr {
 	max-width: 550px;
 	font-size: 1.2rem;
 	line-height: 1.7rem;
+	margin-top: 2rem;
 }
 
 /* Icons */
@@ -403,6 +404,7 @@ hr {
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
+	position: relative;
 }
 
 .contact:after {
@@ -418,18 +420,52 @@ hr {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 6rem;
+	margin-top: 5rem;
 	color: var(--text-color-1);
 	z-index: 1;
 }
 
-/* FOOTER */
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem;
+	z-index: 1;
+	max-width: 800px;
+	margin-right: 3rem;
+}
+
+.form-label {
+	font-family: "Monoton", sans-serif;
+	font-size: 1.3rem;
+	color: var(--highlight-color);
+	letter-spacing: 3px;
+	margin: 0 0 0 1.6rem;
+}
+
+input,
+textarea {
+	background-color: var(--primary-light);
+	display: block;
+	margin: 1.5rem;
+	width: 100%;
+	border-radius: 8px;
+	padding: 0.25rem;
+	margin-top: 0.5rem;
+	border: 3px solid var(--highlight-color);
+}
+
 .copyright {
-	background-color: var(--primary-dark);
-	color: var(--text-color-1);
+	font-weight: bold;
+	color: var(--alan-text-color);
 	text-align: center;
 	font-size: 1.5rem;
 	padding: 1rem;
+	z-index: 1;
+	animation: flicker-alan 1.5s infinite alternate;
+	position: absolute;
+	bottom: 1.8rem;
 }
 
 /* TO TOP BUTTON */
@@ -565,6 +601,9 @@ hr {
 	}
 	.about-img {
 		margin-top: 2rem;
+	}
+	.about-text {
+		margin-top: -2rem;
 	}
 	.icon-container i {
 		max-width: 500px;

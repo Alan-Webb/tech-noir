@@ -103,10 +103,10 @@
               <i class="fa-brands fa-sass fa-4x"></i>
               <p class="text-center">Sass</p>
             </div>
-            <div class="tech-icon">
+            <!-- <div class="tech-icon">
               <i class="fa-brands fa-react fa-4x"></i>
               <p class="text-center">React</p>
-            </div>
+            </div> -->
             <div class="tech-icon">
               <i class="fa-brands fa-linux fa-4x"></i>
               <p class="text-center">Linux</p>
@@ -175,17 +175,28 @@
           <p>If you have any questions please
           contact me with the form below.</p>
         </div>
-    <!-- Form -->
-    </section>
-    </main>
-    <!-- Footer -->
-    <section id="footer">
+      <!-- Form -->
+      <div class="form-container">
+        <form method="post" action="https://webbalan91939.dev">
+          <label for="name"><span class="form-label">Your name: </span>
+            <input id="name" name="name" type="text" required>
+          </label>
+          <label for="email"><span class="form-label">Your email: </span>
+            <input id="email" name="email" type="email" required> 
+          </label>
+          <label for="message"><span class="form-label">Your message: </span>
+            <textarea id="message" name="message" rows="5" cols="30" required ></textarea>  
+          </label>   
+        </form>
+      </div>
+      <!-- Copyright -->
       <p class="copyright">&copy; Alan Webb</p>
-      <button id="to-top" class="to-top-btn">
-        <img src="images/up-arrow.png" />
-      </button>   
-    </section> 
-		<script src="script.js"></script>
+        <button id="to-top" class="to-top-btn">
+          <img src="images/up-arrow.png" />
+        </button>   
+    </section>
+    </main>  
+    <script src="script.js"></script>
 	</body>
 </html>
  
