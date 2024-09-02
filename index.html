@@ -116,7 +116,7 @@
     <!-- Projects -->
     <section id="projects">
       <div class="projects">
-        <h2>Projects</h2>
+        <h2>Check out some of my projects</h2>
         <hr>
         <div class="project-container">
           <!-- Project Card 1 -->
@@ -169,9 +169,35 @@
     </section>
     <!-- Contact -->
     <section id="contact">
-      <h2>I would love to hear from you</h2>
-      <p>If you have any questions or would like to work together, please
-      contact me with the form below.</p>
+      <div class="contact">
+        <div class="contact-text">
+          <h2>I would love to hear from you</h2>
+          <p>If you have any questions or would like to work together, please
+          contact me with the form below.</p>
+        </div>
+      <!-- Form -->
+      <form name="contact" action="post">
+        <div>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name" />
+        </div>
+        <div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email" />
+        </div>
+        <div>
+          <textarea
+            name="message"
+            placeholder="Your Message"></textarea>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
     </section>
               
     </main>

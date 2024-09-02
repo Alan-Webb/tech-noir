@@ -141,7 +141,7 @@ hr {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.4);
 }
 
 .text-container {
@@ -279,6 +279,8 @@ hr {
 
 /* PROJECTS */
 .projects {
+	background-color: var(--primary-dark);
+	color: var(--text-color-1);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -351,8 +353,7 @@ hr {
 	opacity: 1;
 }
 
-.view-project,
-.more-info {
+.view-project {
 	background-color: #03045e;
 	color: #fff;
 	width: 150px;
@@ -368,8 +369,7 @@ hr {
 	margin-bottom: 10px;
 }
 
-.view-project:hover,
-.more-info:hover {
+.view-project:hover {
 	background-color: var(--hover-shadow-color);
 }
 
@@ -385,12 +385,51 @@ hr {
 	text-transform: uppercase;
 }
 
-.info .tech {
+.info {
 	margin: 0;
 	font-weight: bold;
+	color: var(--text-color-2);
 }
 
 /* CONTACT */
+.contact {
+	background-color: var(--primary-dark);
+	color: var(--webb-text-color);
+	font-size: 1.5rem;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url("../images/retro-landscape.jpg") center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.contact:after {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.contact-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 12rem;
+	color: var(--text-color-1);
+	z-index: 1;
+}
+
+form {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 8rem;
+	padding: 3rem;
+}
 
 /* KEYFRAMES */
 /* Alan */
