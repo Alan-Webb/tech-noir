@@ -172,32 +172,30 @@
       <div class="contact">
         <div class="contact-text">
           <h2>I would love to hear from you</h2>
-          <p>If you have any questions or would like to work together, please
+          <p>If you have any questions please
           contact me with the form below.</p>
         </div>
       <!-- Form -->
-      <form name="contact" action="post">
-        <div>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name" />
-        </div>
-        <div>
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email" />
-        </div>
-        <div>
-          <textarea
-            name="message"
-            placeholder="Your Message"></textarea>
-        </div>
-        <div>
-          <button type="submit">Submit</button>
-        </div>
-      </div>
+      <form method="post" action="https://elsewyr">
+        <fieldset>
+          <label for="name"
+            >Enter Your Name:
+            <input id="name" name="name" type="text" required placeholder=" Your name"
+          /></label>
+          <label for="email"
+            >Enter Your Email:
+            <input id="email" name="email" type="email" required placeholder=" Your Email"/></label>
+          <label for="new-password"
+            >Enter Your Message
+            <textarea
+              id="message"
+              name="message"
+              type="text"
+              required
+          /></label>
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
     </section>
               
     </main>
