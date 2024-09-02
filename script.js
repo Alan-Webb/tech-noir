@@ -1,5 +1,4 @@
 // NAVBAR
-// JS representation from DOM
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 //hamburger animation
@@ -8,17 +7,25 @@ hamburger.addEventListener("click", () => {
 	navMenu.classList.toggle("active");
 });
 
-// Navbar scroll effect
+// Navbar scroll effect and to-top button
 function userScroll() {
 	const navbar = document.querySelector(".nav-container");
+	const toTopBtn = document.querySelector("#to-top");
 
 	window.addEventListener("scroll", () => {
 		if (window.scrollY > 50) {
 			navbar.classList.add("navbar-scroll");
+			toTopBtn.classList.add("show");
 		} else {
 			navbar.classList.remove("navbar-scroll");
+			toTopBtn.classList.remove("show");
 		}
 	});
+}
+
+function scrollToTop() {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
 }
 
 // Typing Effect
@@ -41,3 +48,4 @@ function typeText(text, typingElement, delay) {
 // Event listeners
 document.addEventListener("DOMContentLoaded", userScroll);
 document.addEventListener("DOMContentLoaded", runTypingEffect);
+document.querySelector("#to-top").addEventListener("click", scrollToTop);
