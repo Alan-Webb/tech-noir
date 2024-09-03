@@ -441,7 +441,7 @@ hr {
 	font-size: 1.3rem;
 	color: var(--highlight-color);
 	letter-spacing: 3px;
-	margin: 0 0 0 1.6rem;
+	margin-left: 1.6rem;
 }
 
 input,
