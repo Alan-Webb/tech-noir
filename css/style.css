@@ -64,7 +64,7 @@ hr {
 	justify-content: space-around;
 	position: fixed;
 	top: 0;
-	transition: all 0.5s ease-in-out;
+	transition: scroll 0.5s ease-in-out;
 	z-index: 3;
 }
 
