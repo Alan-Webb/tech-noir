@@ -1,7 +1,13 @@
-// NAVBAR
+// JS representaion from DOM
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
-//hamburger animation
+
+// Event listeners
+document.addEventListener("DOMContentLoaded", userScroll);
+document.addEventListener("DOMContentLoaded", runTypingEffect);
+document.querySelector("#to-top").addEventListener("click", scrollToTop);
+
+// Hamburger animation
 hamburger.addEventListener("click", () => {
 	hamburger.classList.toggle("active");
 	navMenu.classList.toggle("active");
@@ -44,8 +50,3 @@ function typeText(text, typingElement, delay) {
 		}, delay * i);
 	}
 }
-
-// Event listeners
-document.addEventListener("DOMContentLoaded", userScroll);
-document.addEventListener("DOMContentLoaded", runTypingEffect);
-document.querySelector("#to-top").addEventListener("click", scrollToTop);

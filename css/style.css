@@ -367,6 +367,10 @@ hr {
 	background-color: var(--hover-shadow-color);
 }
 
+.view-project:active {
+	transform: translateY(2px);
+}
+
 .info {
 	padding: 1rem;
 	text-align: center;
@@ -457,6 +461,11 @@ textarea {
 	padding: 0.25rem;
 	margin-top: 0.5rem;
 	border: 2px solid var(--highlight-color);
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
 }
 
 .copyright {
