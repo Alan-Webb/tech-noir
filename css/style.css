@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Monoton&display=swap");
 
 :root {
-	--primary-color: #0077b6;
-	--secondary-color: #00b4d8;
 	--primary-dark: #03045e;
 	--primary-light: #caf0f8;
 	--highlight-color: #ff13f0;
@@ -16,7 +14,6 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
 }
 
 body {
@@ -81,7 +78,7 @@ hr {
 
 .nav-menu {
 	display: flex;
-	gap: 40px;
+	gap: 2rem;
 }
 
 .nav-menu li {
@@ -121,7 +118,7 @@ hr {
 /* Navbar Scroll Effect */
 .navbar-scroll {
 	background-color: var(--primary-dark);
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
 /* HEADER */
@@ -159,7 +156,7 @@ hr {
 	padding: 2rem;
 }
 
-.header-text {
+.header-role {
 	font-size: 2.5rem;
 	font-weight: bold;
 	margin-top: 16rem;
@@ -218,7 +215,6 @@ hr {
 .about-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	padding: 2rem;
 }
@@ -236,7 +232,7 @@ hr {
 }
 
 .about-img {
-	width: 300px;
+	width: 325px;
 	box-shadow: 0 0 0 5px var(--highlight-color);
 	animation: animate-border 5s ease-in-out infinite;
 	transform: all 1s ease-in-out;
