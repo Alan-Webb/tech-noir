@@ -47,6 +47,15 @@ hr {
 	background-color: var(--highlight-color);
 }
 
+button:hover,
+button.submit:hover {
+	background-color: var(--hover-shadow-color);
+}
+
+button:active {
+	transform: translateY(2px);
+}
+
 /* NAVBAR */
 .nav-container {
 	background-color: var(--primary-dark);
@@ -241,6 +250,7 @@ hr {
 .about-text {
 	max-width: 550px;
 	font-size: 1.2rem;
+	font-weight: 600;
 	line-height: 1.7rem;
 	margin-top: 2rem;
 }
@@ -264,13 +274,13 @@ hr {
 	text-align: center;
 }
 
-.tech-icon i {
+.tech-icon i,
+.tech-icon p {
 	color: var(--primary-dark);
 }
 
 .tech-icon p {
 	font-weight: bold;
-	color: var(--primary-dark);
 	padding: 0.5rem;
 }
 
@@ -304,7 +314,7 @@ hr {
 }
 
 .project-card:hover {
-	transform: translateY(-10px);
+	transform: translateY(-20px);
 }
 
 .img-area {
@@ -318,7 +328,7 @@ hr {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	transition: transform 0.3s ease;
+	transition: transform 0.3s ease-in-out;
 }
 
 .img-area:hover img {
@@ -339,13 +349,13 @@ hr {
 	transition: opacity 0.3s ease;
 }
 
-.project-card:hover .overlay {
+.project-card .img-area:hover .overlay {
 	opacity: 1;
 }
 
 .view-project {
-	background-color: #03045e;
-	color: #fff;
+	background-color: var(--primary-dark);
+	color: var(--text-color-1);
 	width: 150px;
 	padding: 1rem;
 	border: 1px solid var(--highlight-color);
@@ -357,14 +367,6 @@ hr {
 	letter-spacing: 1px;
 	cursor: pointer;
 	margin-bottom: 10px;
-}
-
-.view-project:hover {
-	background-color: var(--hover-shadow-color);
-}
-
-.view-project:active {
-	transform: translateY(2px);
 }
 
 .info {
