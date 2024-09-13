@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Monoton&display=swap");
 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
 :root {
 	--primary-dark: #03045e;
 	--primary-light: #caf0f8;
@@ -11,11 +19,6 @@
 	--webb-text-color: #ffd5ff;
 }
 
-* {
-	box-sizing: border-box;
-	margin: 0;
-}
-
 body {
 	background-color: var(--primary-light);
 	color: var(--text-color-2);
@@ -24,12 +27,7 @@ body {
 }
 
 a {
-	text-decoration: none;
 	color: var(--text-color-1);
-}
-
-li {
-	list-style: none;
 }
 
 h2 {
@@ -134,7 +132,7 @@ button:active {
 .header {
 	display: flex;
 	flex-direction: column;
-	background: url("../images/header-image.png") center center no-repeat;
+	background: url("../images/header-image.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
