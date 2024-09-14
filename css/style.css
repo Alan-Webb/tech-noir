@@ -134,7 +134,7 @@ button:active {
 .header {
 	display: flex;
 	flex-direction: column;
-	background: url("../images/header-image.png") center center no-repeat;
+	background: url("../images/header-image.jpg") center center no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
