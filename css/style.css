@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Monoton&family=Press+Start+2P&display=swap");
 
 * {
 	box-sizing: border-box;
@@ -17,6 +17,14 @@
 	--text-color-2: #000;
 	--alan-text-color: #cfff04;
 	--webb-text-color: #ffd5ff;
+	--vhs-bg-color: #2b52ff;
+	--vhs-rec-flicker-1: #ffffff99;
+	--vhs-rec-flicker-2: #ffffebb3;
+	--vhs-rec-flicker-3: #fb00e7cc;
+	--vhs-rec-flicker-4: #00e9ebcc;
+	--vhs-rec-flicker-5: #00f20ecc;
+	--vhs-rec-flicker-6: #f42d00cc;
+	--vhs-rec-flicker-7: #3b00e2cc;
 }
 
 body {
@@ -220,6 +228,8 @@ button:active {
 
 /* ABOUT */
 .about-container {
+	background-color: var(--vhs-bg-color);
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -251,6 +261,26 @@ button:active {
 	font-weight: 600;
 	line-height: 1.7rem;
 	margin-top: 2rem;
+}
+
+/* VHS & REC text */
+.vhs-text,
+.rec-text {
+	position: absolute;
+	font-family: "Press Start 2P", cursive;
+	color: var(--alan-text-color);
+}
+
+.vhs-text {
+	top: 6rem;
+	left: 4rem;
+	animation: vhsText 2s steps(9) 0s infinite alternate;
+}
+
+.rec-text {
+	right: 6rem;
+	bottom: 8rem;
+	animation: vhsText 1s steps(9) 0s infinite alternate;
 }
 
 /* Icons */
@@ -574,6 +604,52 @@ button.submit {
 	}
 	50% {
 		border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+	}
+}
+
+/* VHS and REC text */
+@keyframes vhsText {
+	0% {
+		text-shadow: -1px 1px 8px var(--vhs-rec-flicker-1),
+			1px -1px 8px var(--vhs-rec-flicker-2), 0px 0 1px var(--vhs-rec-flicker-3),
+			0 0px 3px var(--vhs-rec-flicker-4), 0px 0 3px var(--vhs-rec-flicker-5),
+			0 0px 3px var(--vhs-rec-flicker-6), 0px 0 3px var(--vhs-rec-flicker-7);
+	}
+	25% {
+		text-shadow: -1px 1px 8px var(--vhs-rec-flicker-1),
+			1px -1px 8px var(--vhs-rec-flicker-2), 0px 0 1px var(--vhs-rec-flicker-3),
+			0 0px 3px var(--vhs-rec-flicker-4), 0px 0 3px var(--vhs-rec-flicker-5),
+			0 0px 3px var(--vhs-rec-flicker-6), 0px 0 3px var(--vhs-rec-flicker-7);
+	}
+	45% {
+		text-shadow: -1px 1px 8px var(--vhs-rec-flicker-1),
+			1px -1px 8px var(--vhs-rec-flicker-2), 5px 0 1px var(--vhs-rec-flicker-3),
+			0 5px 1px var(--vhs-rec-flicker-4), -5px 0 1px var(--vhs-rec-flicker-5),
+			0 -5px 1px var(--vhs-rec-flicker-6), 5px 0 1px var(--vhs-rec-flicker-7);
+	}
+	50% {
+		text-shadow: -1px 1px 8px var(--vhs-rec-flicker-1),
+			1px -1px 8px var(--vhs-rec-flicker-2), -5px 0 1px var(--vhs-rec-flicker-3),
+			0 -5px 1px var(--vhs-rec-flicker-4), 5px 0 1px var(--vhs-rec-flicker-5),
+			0 5px 1px var(--vhs-rec-flicker-6), -5px 0 1px var(--vhs-rec-flicker-7);
+	}
+	55% {
+		text-shadow: -1px 1px 8px var(--vhs-rec-flicker-1),
+			1px -1px 8px var(--vhs-rec-flicker-2), 0px 0 3px var(--vhs-rec-flicker-3),
+			0 0px 3px var(--vhs-rec-flicker-4), 0px 0 3px var(--vhs-rec-flicker-5),
+			0 0px 3px var(--vhs-rec-flicker-6), 0px 0 3px var(--vhs-rec-flicker-7);
+	}
+	90% {
+		text-shadow: -1px 1px 8px var(--vhs-rec-flicker-1),
+			1px -1px 8px var(--vhs-rec-flicker-2), -5px 0 1px var(--vhs-rec-flicker-3),
+			0 5px 1px var(--vhs-rec-flicker-4), 5px 0 1px var(--vhs-rec-flicker-5),
+			0 -5px 1px var(--vhs-rec-flicker-6), 5px 0 1px var(--vhs-rec-flicker-7);
+	}
+	100% {
+		text-shadow: -1px 1px 8px var(--vhs-rec-flicker-1),
+			1px -1px 8px var(--vhs-rec-flicker-2), 5px 0 1px var(--vhs-rec-flicker-3),
+			0 -5px 1px var(--vhs-rec-flicker-4), -5px 0 1px var(--vhs-rec-flicker-5),
+			0 5px 1px var(--vhs-rec-flicker-6), -5px 0 1px var(--vhs-rec-flicker-7);
 	}
 }
 
