@@ -272,6 +272,7 @@ button:active {
 }
 
 .about-container h2 {
+	margin-top: 2rem;
 	font-size: 2rem;
 	padding: 5rem 0 1rem;
 	font-size: 1.5rem;
@@ -285,7 +286,8 @@ button:active {
 }
 
 .about-img {
-	width: 325px;
+	width: 400px;
+	margin: 0 2rem 10rem 2rem;
 	box-shadow: 0 0 0 5px var(--highlight-color);
 	animation: animate-border 5s ease-in-out infinite;
 	transform: all 1s ease-in-out;
@@ -295,8 +297,8 @@ button:active {
 	max-width: 550px;
 	font-size: 0.85rem;
 	font-weight: 400;
-	line-height: 1.5rem;
-	margin-top: 2rem;
+	line-height: 1.7rem;
+	margin: 2rem 0 14rem 0;
 }
 
 /* VHS & REC text */
@@ -304,6 +306,7 @@ button:active {
 .rec-text {
 	position: absolute;
 	color: var(--alan-text-color);
+	font-size: 2rem;
 }
 
 .vhs-text {
@@ -314,7 +317,7 @@ button:active {
 
 .rec-text {
 	right: 6rem;
-	bottom: 8rem;
+	bottom: 12rem;
 	animation: vhsText 1s steps(9) 0s infinite alternate;
 }
 
@@ -699,17 +702,27 @@ button.submit {
 
 /* About section */
 @media only screen and (max-width: 992px) {
+	.about-text {
+		margin-top: -2rem;
+	}
+	.icon-container i {
+		max-width: 500px;
+	}
+	.about-container h2 {
+		padding-top: 8rem;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
 	.about-content {
 		flex-direction: column;
 		text-align: center;
 	}
 	.about-img {
 		margin-top: 2rem;
+		margin-bottom: 0;
 	}
-	.about-text {
-		margin-top: -2rem;
-	}
-	.icon-container i {
-		max-width: 500px;
+	.rec-text {
+		margin-bottom: 6rem;
 	}
 }
