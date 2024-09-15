@@ -262,7 +262,7 @@ button:active {
 /* ABOUT */
 .about-container {
 	background-color: var(--vhs-bg-color);
-	color: var(--text-color-1);
+	color: var(--alan-text-color);
 	font-family: "Press Start 2P", sans-serif;
 	position: relative;
 	display: flex;
@@ -288,15 +288,15 @@ button:active {
 .about-img {
 	width: 400px;
 	margin: 0 2rem 10rem 2rem;
-	box-shadow: 0 0 0 5px var(--highlight-color);
+	box-shadow: 0 0 0 5px var(--alan-text-color);
 	animation: animate-border 5s ease-in-out infinite;
 	transform: all 1s ease-in-out;
 }
 
 .about-text {
 	max-width: 550px;
-	font-size: 0.85rem;
-	font-weight: 400;
+	font-size: 0.90rem;
+	font-weight: 600;
 	line-height: 1.7rem;
 	margin: 2rem 0 14rem 0;
 }
@@ -390,7 +390,7 @@ button:active {
 	opacity: 1;
 }
 
-.view-project {
+.view-project-btn {
 	background-color: var(--primary-dark);
 	color: var(--text-color-1);
 	width: 150px;
@@ -401,9 +401,7 @@ button:active {
 	font-size: 1rem;
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 1px;
 	cursor: pointer;
-	margin-bottom: 10px;
 }
 
 .info {
@@ -432,6 +430,10 @@ button:active {
 	display: flex;
 	font-size: 0.75rem;
 	gap: 1rem;
+}
+
+.badges i {
+	color: var(--primary-dark);
 }
 
 /* CONTACT */
