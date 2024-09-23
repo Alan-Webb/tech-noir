@@ -25,12 +25,15 @@
 	--vhs-rec-flicker-5: #00f20ecc;
 	--vhs-rec-flicker-6: #f42d00cc;
 	--vhs-rec-flicker-7: #3b00e2cc;
+	--primary-font: "Exo2";
+	--secondary-font: "Press Start 2P";
+	--webb-font: "Monoton";
 }
 
 body {
 	background-color: var(--primary-light);
 	color: var(--text-color-2);
-	font-family: "Exo 2", sans-serif;
+	font-family: var(--primary-font), sans-serif;
 	height: 100vh;
 }
 
@@ -190,7 +193,7 @@ button:active {
 }
 
 .alan {
-	font-family: "Exo 2", sans-serif;
+	font-family: var(--primary-font), sans-serif;
 	font-size: 6rem;
 	font-weight: 200;
 	font-style: italic;
@@ -203,7 +206,7 @@ button:active {
 }
 
 .webb {
-	font-family: "Monoton", sans-serif;
+	font-family: var(--webb-font), sans-serif;
 	font-size: 8rem;
 	font-weight: 400;
 	color: var(--webb-text-color);
@@ -267,7 +270,7 @@ button:active {
 .about-container {
 	background-color: var(--vhs-bg-color);
 	color: var(--alan-text-color);
-	font-family: "Press Start 2P", sans-serif;
+	font-family: var(--secondary-font), sans-serif;
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -332,7 +335,7 @@ button:active {
 
 .rec-text {
 	left: 4rem;
-	bottom: 12rem;
+	bottom: 10rem;
 	animation: vhsText 1s steps(9) 0s infinite alternate;
 }
 
@@ -459,8 +462,6 @@ button:active {
 .services-container {
 	display: flex;
 	justify-content: space-around;
-	gap: 2rem;
-	margin: 0 8rem;
 }
 
 .services-info {
@@ -469,6 +470,7 @@ button:active {
 	align-items: center;
 	border: 2px solid var(--highlight-color);
 	border-radius: 8px;
+	margin: 0 2.5rem;
 }
 
 .services-info i {
@@ -486,13 +488,12 @@ button:active {
 
 /* Testimonial Slider */
 .testimonial-container {
-	/* border: 2px solid var(--highlight-color); */
-	width: 85%;
+	border: 2px solid var(--highlight-color);
+	width: 75%;
 	height: 45vh;
-	margin: 0 auto;
+	margin: 2rem auto;
 	border-radius: 2rem;
 	position: relative;
-	margin-top: 4rem;
 }
 
 .testimonial-card {
@@ -505,8 +506,8 @@ button:active {
 }
 
 .card-avatar {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	margin: 0 auto;
 	background-image: url("../images/test-user-1.jpg");
@@ -525,8 +526,8 @@ button:active {
 .card-quote {
 	text-align: center;
 	font-family: sans-serif;
-	font-size: 1.5em;
-	padding: 0.75rem;
+	font-size: 1.25rem;
+	padding: 1rem;
 	position: relative;
 }
 
