@@ -285,7 +285,6 @@ button:active {
 }
 
 .about-container h2 {
-	margin-top: 2rem;
 	font-size: 2rem;
 	padding: 5rem 0 1rem;
 	font-size: 1.5rem;
@@ -444,21 +443,23 @@ button:active {
 
 .badges {
 	display: flex;
-	font-size: 0.75rem;
 	gap: 1rem;
 }
 
 .badges i {
 	color: var(--primary-dark);
+	font-size: 2.85rem;
 }
+
 /* SERVICES */
 .services h2 {
-	padding-top: 8rem;
+	padding-top: 6rem;
 }
+
 .services-container {
 	display: flex;
 	justify-content: space-around;
-	gap: 3rem;
+	gap: 2rem;
 	margin: 0 8rem;
 }
 
@@ -466,7 +467,6 @@ button:active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 2rem;
 }
 
 .services-info i {
@@ -493,7 +493,7 @@ button:active {
 .testimonial-container {
 	border: 1px solid var(--primary-dark);
 	width: 85%;
-	height: 75%;
+	height: 100vh;
 	margin: 0 auto;
 	border-radius: 2rem;
 	position: relative;
