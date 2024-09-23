@@ -489,6 +489,121 @@ button:active {
 	padding: 0.75rem;
 	max-width: 400px;
 }
+/* Testimonial Slider */
+.testimonial-container {
+	border: 1px solid var(--primary-dark);
+	width: 85%;
+	height: 75%;
+	margin: 0 auto;
+	border-radius: 2rem;
+	position: relative;
+	margin-top: 4rem;
+}
+
+.testimonial-card {
+	width: 75%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	transition: all 500ms ease;
+}
+
+.card-avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background-image: url("./images/test-user-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.avatar-1 {
+	background-image: url("./images/test-user-2.jpg");
+}
+
+.avatar-2 {
+	background-image: url("./images/test-user-3.jpg");
+}
+
+.card-quote {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	padding: 2rem 1rem;
+	position: relative;
+}
+
+.left-quote {
+	position: absolute;
+	transform: translate(-35%, 0);
+	top: 0;
+	left: 0;
+	font-size: 3.5rem;
+	color: var(--primary-dark);
+	z-index: -1;
+}
+
+.right-quote {
+	position: absolute;
+	transform: translate(50%, 0);
+	bottom: 0;
+	right: 0;
+	font-size: 3.5rem;
+	color: var(--primary-dark);
+	z-index: -1;
+}
+
+.card-name {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.25em;
+	padding: 1rem;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.card-role {
+	font-family: sans-serif;
+	padding: 1rem;
+	text-align: center;
+	font-style: italic;
+}
+
+.card-1 {
+	opacity: 0;
+}
+
+.card-2 {
+	opacity: 0;
+}
+
+.indicator-buttons-container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.indicator-button {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	border: 1px solid var(--primary-dark);
+	margin: 0 10px;
+	cursor: pointer;
+	transition: all 500ms ease;
+}
+
+.indicator-button:hover {
+	background-color: var(--highlight-color);
+}
+
+.active {
+	background: var(--primary-dark);
+}
 
 /* CONTACT */
 .contact-container {
