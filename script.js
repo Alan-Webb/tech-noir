@@ -1,4 +1,4 @@
-// JS representaion from DOM
+// JS REPRESENTATION FROM DOM
 // Navbar
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
@@ -6,8 +6,11 @@ const navMenu = document.querySelector(".nav-menu");
 const hourEl = document.getElementById("hours");
 const minuteEl = document.getElementById("minutes");
 const secondEl = document.getElementById("seconds");
+// Testimonial Slider
+const indicatorButtons = document.getElementsByClassName("indicator-button");
+const testimonialCards = document.getElementsByClassName("testimonial-card");
 
-// Event listeners
+// EVENT LISTENERS
 document.addEventListener("DOMContentLoaded", userScroll);
 document.addEventListener("DOMContentLoaded", runTypingEffect);
 document.querySelector("#to-top").addEventListener("click", scrollToTop);
@@ -75,3 +78,19 @@ function updateCounter() {
 }
 
 updateCounter();
+
+// Testimonial Slider Indicator button functionality
+let isActive = false;
+for (let i = 0; i < indicatorButtons.length; i++) {
+	indicatorButtons[i].addEventListener("click", function () {
+		for (let j = 0; j < indicatorButtons.length; j++) {
+			indicatorButtons[j].classList.remove("active");
+			testimonialCards[j].style.opacity = "0";
+		}
+		isActive = true;
+		if (isActive) {
+			indicatorButtons[i].classList.add("active");
+			testimonialCards[i].style.opacity = "100%";
+		}
+	});
+}
