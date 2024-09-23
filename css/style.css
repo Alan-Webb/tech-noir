@@ -80,6 +80,11 @@ button:active {
 	z-index: 3;
 }
 
+.nav-container i {
+	font-size: 1.75rem;
+	margin-top: 0;
+}
+
 .nav-brand {
 	position: absolute;
 	top: 1.5rem;
