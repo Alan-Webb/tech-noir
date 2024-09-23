@@ -80,11 +80,6 @@ button:active {
 	z-index: 3;
 }
 
-.nav-container i {
-	font-size: 1.75rem;
-	margin-top: 0;
-}
-
 .nav-brand {
 	position: absolute;
 	top: 1.5rem;
@@ -257,6 +252,10 @@ button:active {
 .tech-icon i,
 .tech-icon p {
 	color: var(--text-color-1);
+}
+
+.tech-icon i {
+	font-size: 4rem;
 }
 
 .tech-icon p {
