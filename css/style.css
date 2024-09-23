@@ -467,19 +467,13 @@ button:active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border: 2px solid var(--highlight-color);
+	border-radius: 8px;
 }
 
 .services-info i {
 	font-size: 2.5rem;
 	padding: 1.5rem;
-}
-
-.services-info h3 {
-	padding: 0.75rem;
-}
-
-.services-info hr {
-	margin: 0.75rem;
 }
 
 .services-text {
@@ -489,11 +483,12 @@ button:active {
 	padding: 0.75rem;
 	max-width: 400px;
 }
+
 /* Testimonial Slider */
 .testimonial-container {
-	border: 1px solid var(--primary-dark);
+	/* border: 2px solid var(--highlight-color); */
 	width: 85%;
-	height: 100vh;
+	height: 45vh;
 	margin: 0 auto;
 	border-radius: 2rem;
 	position: relative;
@@ -514,24 +509,24 @@ button:active {
 	height: 100px;
 	border-radius: 50%;
 	margin: 0 auto;
-	background-image: url("./images/test-user-1.jpg");
+	background-image: url("../images/test-user-1.jpg");
 	background-size: cover;
 	background-position: center;
 }
 
 .avatar-1 {
-	background-image: url("./images/test-user-2.jpg");
+	background-image: url("../images/test-user-2.jpg");
 }
 
 .avatar-2 {
-	background-image: url("./images/test-user-3.jpg");
+	background-image: url("../images/test-user-3.jpg");
 }
 
 .card-quote {
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 1.5em;
-	padding: 2rem 1rem;
+	padding: 0.75rem;
 	position: relative;
 }
 
