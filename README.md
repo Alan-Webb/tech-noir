@@ -14,6 +14,6 @@ Alan Webb
 
 ## Credits
 
-header image courtesy of unsplash.com
+header and testimonial images courtesy of unsplash.com
 
 contact section image courtesy of Freepik.com
