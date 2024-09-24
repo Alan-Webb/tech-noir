@@ -468,7 +468,6 @@ button:active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border: 2px solid var(--highlight-color);
 	border-radius: 8px;
 	margin: 0 2.5rem;
 }
@@ -488,7 +487,6 @@ button:active {
 
 /* Testimonial Slider */
 .testimonial-container {
-	border: 2px solid var(--highlight-color);
 	width: 75%;
 	height: 45vh;
 	margin: 2rem auto;
@@ -527,7 +525,7 @@ button:active {
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 1.25rem;
-	padding: 4rem 2rem;
+	padding: 1.5rem;
 	position: relative;
 }
 
@@ -578,7 +576,7 @@ button:active {
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	padding-bottom: 2rem;
+	padding-bottom: 2.5rem;
 }
 
 .indicator-button {
