@@ -521,6 +521,10 @@ button:active {
 	background-image: url("../images/test-user-3.jpg");
 }
 
+.avatar-3 {
+	background-image: url("../images/test-user-4.jpg");
+}
+
 .card-quote {
 	text-align: center;
 	font-family: sans-serif;
@@ -568,6 +572,10 @@ button:active {
 }
 
 .card-2 {
+	opacity: 0;
+}
+
+.card-3 {
 	opacity: 0;
 }
 
