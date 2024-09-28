@@ -135,7 +135,6 @@ button:active {
 
 /* Navbar Scroll Effect */
 .navbar-scroll {
-	background-color: var(--primary-dark);
 	opacity: 0.8;
 }
 
