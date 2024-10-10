@@ -461,9 +461,11 @@ button:active {
 .services-container {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .services-info {
+	max-width: 550px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -993,6 +995,7 @@ button.submit {
 		height: 525px;
 	}
 }
+
 /* Services */
 @media (max-width: 768px) {
 	.card-avatar {
@@ -1008,6 +1011,9 @@ button.submit {
 @media (max-width: 992px) {
 	.services-container {
 		flex-direction: column;
+	}
+	.services-info {
+		margin-bottom: 2rem;
 	}
 }
 
