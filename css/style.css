@@ -508,8 +508,8 @@ button:active {
 }
 
 .card-avatar {
-	width: 150px;
-	height: 150px;
+	width: 8rem;
+	height: 8rem;
 	border-radius: 50%;
 	margin: 0 auto;
 	background-image: url("../images/test-user-1.jpg");
