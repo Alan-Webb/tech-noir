@@ -163,7 +163,7 @@ button:active {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 12rem;
+	margin-top: 6rem;
 	color: var(--text-color-1);
 	z-index: 1;
 }
@@ -230,7 +230,6 @@ button:active {
 
 /* Icons */
 .icon-heading {
-	margin-top: 2rem;
 	color: var(--text-color-1);
 	font-size: 2rem;
 	z-index: 1;
@@ -257,7 +256,7 @@ button:active {
 }
 
 .tech-icon i {
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 
 .tech-icon p {
