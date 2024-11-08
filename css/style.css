@@ -356,8 +356,8 @@ button:active {
 
 .project-card {
 	position: relative;
-	width: 500px;
-	height: 500px;
+	width: 28rem;
+	height: 32rem;
 	margin: 3rem;
 	box-shadow: 0 2px 20px var(--highlight-color);
 	overflow: hidden;
