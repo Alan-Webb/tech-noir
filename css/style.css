@@ -455,6 +455,7 @@ button:active {
 /* SERVICES */
 .services h2 {
 	padding-top: 5rem;
+	padding-bottom: 3rem;
 }
 
 .services-container {
