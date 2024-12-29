@@ -101,7 +101,7 @@ button:active {
 
 .nav-menu li {
 	font-weight: 600;
-	letter-spacing: 1px;
+	letter-spacing: 0.063rem;
 	cursor: pointer;
 	padding: 0.5rem;
 }
@@ -127,9 +127,9 @@ button:active {
 .bar {
 	background-color: var(--text-color-1);
 	display: block;
-	width: 23px;
-	height: 3px;
-	margin: 5px auto;
+	width: 1.438rem;
+	height: 0.188rem;
+	margin: 0.313rem auto;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -309,7 +309,7 @@ button:active {
 }
 
 .about-text {
-	max-width: 550px;
+	max-width: 34.375rem;
 	font-size: 0.9rem;
 	font-weight: 600;
 	line-height: 1.7rem;
@@ -373,7 +373,7 @@ button:active {
 .img-area {
 	position: relative;
 	width: 100%;
-	height: 250px;
+	height: 15.625rem;
 	overflow: hidden;
 }
 
@@ -409,7 +409,7 @@ button:active {
 .view-project-btn {
 	background-color: var(--primary-dark);
 	color: var(--text-color-1);
-	width: 150px;
+	width: 9.375rem;
 	padding: 1rem;
 	border: 1px solid var(--highlight-color);
 	box-shadow: 1px 1px 1px var(--hover-shadow-color);
@@ -485,7 +485,7 @@ button:active {
 	font-weight: 500;
 	line-height: 1.75rem;
 	padding: 1.5rem;
-	max-width: 400px;
+	max-width: 25rem;
 }
 
 /* Testimonial Slider */
@@ -643,7 +643,7 @@ button:active {
 	align-items: center;
 	padding-top: 6rem;
 	z-index: 1;
-	max-width: 800px;
+	max-width: 50rem;
 	margin-right: 3rem;
 }
 
@@ -652,7 +652,7 @@ button:active {
 	font-size: 1.2rem;
 	font-weight: bold;
 	color: var(--text-color-1);
-	letter-spacing: 3px;
+	letter-spacing: 0.188rem;
 	margin-left: 1.6rem;
 }
 
@@ -941,7 +941,7 @@ button.submit {
 		font-size: 1rem;
 	}
 	.about-img {
-		width: 250px;
+		width: 15.625rem;
 	}
 	.about-text {
 		font-size: 0.75rem;
@@ -962,7 +962,7 @@ button.submit {
 		margin-top: -2rem;
 	}
 	.icon-container i {
-		max-width: 500px;
+		max-width: 31.25rem;
 	}
 	.about-container h2 {
 		padding-top: 8rem;
@@ -989,16 +989,16 @@ button.submit {
 /* Projects */
 @media (max-width: 480px) {
 	.project-card {
-		width: 400px;
-		height: 525px;
+		width: 25rem;
+		height: 32.813rem;
 	}
 }
 
 /* Services */
 @media (max-width: 768px) {
 	.card-avatar {
-		width: 100px;
-		height: 100px;
+		width: 6.25rem;
+		height: 6.25rem;
 	}
 	.card-quote,
 	.card-name {
