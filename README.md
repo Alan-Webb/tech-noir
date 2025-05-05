@@ -1,19 +1,12 @@
-# alan-webb-portfolio
+# Tech Noir
 
-My portfolio
+customized sci-fi themed events
 
 ## Built with
 
-- HTML 5
-- CSS 3
-- JavaScript
+- React
+- Tailwind CSS
 
 ## Author
 
 Alan Webb
-
-## Credits
-
-header and testimonial images courtesy of unsplash.com
-
-contact section image courtesy of Freepik.com
