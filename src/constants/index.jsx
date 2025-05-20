@@ -8,7 +8,7 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 export const navItems = [
 	{label: "Features", href: "#"},
 	{label: "How it works", href: "#"},
-	{label: "Pricing", href: "#"},
+	{label: "Options", href: "#"},
 	{label: "Testimonials", href: "#"},
 ];
 
