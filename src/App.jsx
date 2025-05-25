@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials";
 
@@ -10,6 +11,7 @@ const App = () => {
 			<About />
 			<Testimonials />
 			<Contact />
+			<Footer />
 		</>
 	);
 };
