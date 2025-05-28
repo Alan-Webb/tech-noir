@@ -1,3 +1,10 @@
+import {Eye} from "lucide-react";
+import {ScanFace} from "lucide-react";
+import {BicepsFlexed} from "lucide-react";
+import {Gpu} from "lucide-react";
+import {ShieldUser} from "lucide-react";
+import {GlobeLock} from "lucide-react";
+
 import user1 from "../assets/user1.jpg";
 import user2 from "../assets/user2.jpg";
 import user3 from "../assets/user3.jpg";
@@ -10,6 +17,45 @@ export const navItems = [
 	{label: "How it works", href: "#"},
 	{label: "Options", href: "#"},
 	{label: "Testimonials", href: "#"},
+];
+
+export const features = [
+	{
+		icon: <Eye />,
+		text: "Cinematic Special Effects",
+		description:
+			"We deliver high-impact visual effects that bring your sci-fi and fantasy visions to life with cinematic precision.",
+	},
+	{
+		icon: <ScanFace />,
+		text: "Expert Creature & Character Design",
+		description:
+			"From aliens to ancient beasts, our artists sculpt unforgettable characters with intricate detail and imaginative flair.",
+	},
+	{
+		icon: <BicepsFlexed />,
+		text: "Advanced Prosthetics & Make-Up",
+		description:
+			"Our custom prosthetics and make-up transformations blur the line between fiction and reality on screen.",
+	},
+	{
+		icon: <Gpu />,
+		text: "Seamless Practical & Digital Integration",
+		description:
+			"We blend physical effects with cutting-edge digital enhancements for immersive, believable storytelling.",
+	},
+	{
+		icon: <ShieldUser />,
+		text: "On-Set Effects Supervision",
+		description:
+			"Our experienced team works directly on set to ensure flawless application, continuity, and creative execution.",
+	},
+	{
+		icon: <GlobeLock />,
+		text: "Collaborative Concept Development",
+		description:
+			"We partner with directors and production teams from day one to shape bold, original visual worlds tailored to each story.",
+	},
 ];
 
 export const testimonials = [
