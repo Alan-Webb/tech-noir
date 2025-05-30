@@ -58,6 +58,29 @@ export const features = [
 	},
 ];
 
+export const howItWorksItems = [
+	{
+		title: "Concept to Creation",
+		description:
+			"We begin by collaborating closely with clients to develop bold visual concepts tailored to each story.",
+	},
+	{
+		title: "Design & Development",
+		description:
+			"Our artists and technicians design, sculpt, and prototype characters, creatures, and effects with meticulous attention to detail.",
+	},
+	{
+		title: "On-Set Execution",
+		description:
+			"We deploy our team to the set to apply make-up, operate practical effects, and ensure flawless real-time integration.",
+	},
+	{
+		title: "Post-Production Enhancement ",
+		description:
+			"We refine the final product with digital touch-ups and VFX to seamlessly blend practical and visual elements on screen.",
+	},
+];
+
 export const testimonials = [
 	{
 		user: "Sarah Lin",
