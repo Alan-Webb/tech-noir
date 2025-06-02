@@ -5,12 +5,12 @@ import {Gpu} from "lucide-react";
 import {ShieldUser} from "lucide-react";
 import {GlobeLock} from "lucide-react";
 
-import user1 from "../assets/user1.jpg";
-import user2 from "../assets/user2.jpg";
-import user3 from "../assets/user3.jpg";
-import user4 from "../assets/user4.jpg";
-import user5 from "../assets/user5.jpg";
-import user6 from "../assets/user6.jpg";
+import user1 from "../assets/user1.webp";
+import user2 from "../assets/user2.webp";
+import user3 from "../assets/user3.webp";
+import user4 from "../assets/user4.webp";
+import user5 from "../assets/user5.webp";
+import user6 from "../assets/user6.webp";
 
 export const navItems = [
 	{label: "Features", href: "#"},

@@ -1,5 +1,5 @@
 import {Video} from "lucide-react";
-import howItWorksImg from "../assets/how-it-works.jpg";
+import howItWorksImg from "../assets/how-it-works.webp";
 import {howItWorksItems} from "../constants";
 
 const HowItWorks = () => {
@@ -13,7 +13,11 @@ const HowItWorks = () => {
 			</h2>
 			<div className="flex flex-wrap justify-center">
 				<div className="p-2 w-full lg:w-1/2">
-					<img src={howItWorksImg} alt="example of our stage-craft" />
+					<img
+						src={howItWorksImg}
+						alt="example of our stage-craft"
+						className="rounded-xl mt-8 md:my-32 border border-purple-700 shadow-purple-400"
+					/>
 				</div>
 				<div className="pt-12 w-full lg:w-1/2">
 					{howItWorksItems.map((item, index) => (
