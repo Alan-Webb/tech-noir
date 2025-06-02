@@ -13,10 +13,11 @@ import user5 from "../assets/user5.webp";
 import user6 from "../assets/user6.webp";
 
 export const navItems = [
-	{label: "Features", href: "#"},
-	{label: "How it works", href: "#"},
-	{label: "Options", href: "#"},
-	{label: "Testimonials", href: "#"},
+	{label: "Features", href: "#features"},
+	{label: "How it works", href: "#howitworks"},
+	{label: "Options", href: "#options"},
+	{label: "Testimonials", href: "#testimonials"},
+	{label: "Contact", href: "#contact"},
 ];
 
 export const features = [
