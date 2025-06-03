@@ -82,6 +82,45 @@ export const howItWorksItems = [
 	},
 ];
 
+export const pricingOptions = [
+	{
+		title: "Starter FX Package",
+		price: "€5,000+",
+		description:
+			"Perfect for indie productions or short films needing focused, high-quality effects.",
+		features: [
+			"Custom design of one creature, character, or effect element",
+			"Basic prosthetic make-up and practical application",
+			"Up to 2 days of on-set effects supervision",
+			"Post-production VFX consultation and touch-up guidance",
+		],
+	},
+	{
+		title: "Cinematic FX Package",
+		price: "€15,000+",
+		description:
+			"Ideal for feature films or streaming projects with multiple characters and set-piece effects.",
+		features: [
+			"Full concept development and design for up to 3 key effects",
+			"Advanced prosthetics, make-up, and physical fabrication",
+			"Up to 5 days of on-set support and application",
+			"Seamless integration planning with your post-production VFX team",
+		],
+	},
+	{
+		title: "Epic World-Building Package",
+		price: "€35,000+",
+		description:
+			"A complete visual effects solution for large-scale sci-fi and fantasy productions.",
+		features: [
+			"Comprehensive world and character design from concept to screen",
+			"Custom creature creation, prosthetics, costumes, and digital-ready assets",
+			"Full-time on-set FX supervision for major sequences",
+			"Collaborative workflow across pre-production, shooting, and post",
+		],
+	},
+];
+
 export const testimonials = [
 	{
 		user: "Sarah Lin",

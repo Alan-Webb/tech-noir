@@ -4,7 +4,7 @@ import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Options from "./components/Options";
 
 const App = () => {
 	return (
@@ -14,9 +14,9 @@ const App = () => {
 				<Hero />
 				<Features />
 				<HowItWorks />
+				<Options />
 				<Testimonials />
 				<Contact />
-				<Footer />
 			</div>
 		</>
 	);
