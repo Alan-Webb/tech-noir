@@ -5,8 +5,8 @@ import {howItWorksItems} from "../constants";
 const HowItWorks = () => {
 	return (
 		<section id="howitworks">
-			<div className="mt-20">
-				<h2 className="text-2xl sm:text-4xl lg:text-5xl text-center mt-6 tracking-wide">
+			<div className="mt-20 pt-20">
+				<h2 className="text-2xl sm:text-4xl lg:text-5xl text-center tracking-wide">
 					From Imagination to Impact:{" "}
 					<span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">
 						Bringing Your World to Life
