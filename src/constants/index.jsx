@@ -85,7 +85,6 @@ export const howItWorksItems = [
 export const pricingOptions = [
 	{
 		title: "Starter FX Package",
-		price: "€5,000+",
 		description:
 			"Perfect for indie productions or short films needing focused, high-quality effects.",
 		features: [
@@ -96,10 +95,9 @@ export const pricingOptions = [
 		],
 	},
 	{
-		title: "Cinematic FX Package",
-		price: "€15,000+",
+		title: "Cinematic",
 		description:
-			"Ideal for feature films or streaming projects with multiple characters and set-piece effects.",
+			"Ideal for feature films or streaming projects with multiple characters and varying set-pieces.",
 		features: [
 			"Full concept development and design for up to 3 key effects",
 			"Advanced prosthetics, make-up, and physical fabrication",
@@ -108,8 +106,7 @@ export const pricingOptions = [
 		],
 	},
 	{
-		title: "Epic World-Building Package",
-		price: "€35,000+",
+		title: "World-Building",
 		description:
 			"A complete visual effects solution for large-scale sci-fi and fantasy productions.",
 		features: [
