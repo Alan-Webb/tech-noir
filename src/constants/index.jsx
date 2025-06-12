@@ -110,8 +110,8 @@ export const pricingOptions = [
 		description:
 			"A complete visual effects solution for large-scale sci-fi and fantasy productions.",
 		features: [
-			"Comprehensive world and character design from concept to screen",
-			"Custom creature creation, prosthetics, costumes, and digital-ready assets",
+			"World and character design from concept to screen",
+			"Custom prosthetics, costumes, and digital assets",
 			"Full-time on-set FX supervision for major sequences",
 			"Collaborative workflow across pre-production, shooting, and post",
 		],
@@ -129,7 +129,7 @@ export const testimonials = [
 		user: " Jared Mason",
 		company: "Starforge Studios",
 		image: user2,
-		text: "From eerie prosthetics to stunning creature designs, Tech-Noir delivered beyond expectations.",
+		text: "From prosthetics to stunning creature designs, Tech-Noir delivered beyond expectations.",
 	},
 	{
 		user: "Leila Grant",
@@ -145,14 +145,14 @@ export const testimonials = [
 	},
 	{
 		user: "Dani Thomasson",
-		company: "Crimson Orbit Entertainment",
+		company: "Crimson Orbit",
 		image: user5,
-		text: "Tech-Noir's visionary team elevated our indie project to a professional level. They’re pure magic.",
+		text: "Tech-Noir's visionary team elevated our indie project to a professional level. Pure magic.",
 	},
 	{
 		user: "Rohan Steele",
 		company: "Starlight Syndicate",
 		image: user6,
-		text: "The realism in their sci-fi effects was jaw-dropping. Collaborating with them was a creative joy.",
+		text: "The realism in their sci-fi effects was jaw-dropping. Working with them was a creative joy.",
 	},
 ];
