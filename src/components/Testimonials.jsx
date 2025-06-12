@@ -1,8 +1,11 @@
+import {testimonials} from "../constants";
 
 const Testimonials = () => {
-  return (
-    <div>Testimonials</div>
-  )
-}
+	return (
+		<section id="testimonials">
+			<div></div>
+		</section>
+	);
+};
 
-export default Testimonials
+export default Testimonials;
