@@ -11,6 +11,9 @@ import user3 from "../assets/user3.webp";
 import user4 from "../assets/user4.webp";
 import user5 from "../assets/user5.webp";
 import user6 from "../assets/user6.webp";
+import user7 from "../assets/user7.webp";
+import user8 from "../assets/user8.webp";
+import user9 from "../assets/user9.webp";
 
 export const navItems = [
 	{label: "Features", href: "#features"},
@@ -154,5 +157,23 @@ export const testimonials = [
 		company: "Starlight Syndicate",
 		image: user6,
 		text: "The realism in their sci-fi effects was jaw-dropping. Working with them was a creative joy.",
+	},
+	{
+		user: "Ellie Navarro",
+		company: "Lunar Tides TV",
+		image: user7,
+		text: "Tech-Noir didn’t just create effects—they built entire worlds. Their creativity is next-level.",
+	},
+	{
+		user: "Tom Reese",
+		company: "Apex Aurora Films",
+		image: user8,
+		text: "We threw some wild concepts at them, and they turned every one into a visual masterpiece.",
+	},
+	{
+		user: "Naomi Bell",
+		company: "Darkstream Studios",
+		image: user9,
+		text: "The prosthetics, creature work, and FX make-up were so realistic, even our actors were amazed.",
 	},
 ];
