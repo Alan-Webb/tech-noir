@@ -3,7 +3,7 @@ import {testimonials} from "../constants";
 const Testimonials = () => {
 	return (
 		<section id="testimonials">
-			<div className="mt-20 tracking-wide">
+			<div className="mt-20 pt-10 tracking-wide">
 				<h2 className="text-2xl sm:text-4xl lg:text-5xl text-center my-10 lg:my-20">
 					Testimonials
 				</h2>

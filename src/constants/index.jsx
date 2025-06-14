@@ -20,7 +20,6 @@ export const navItems = [
 	{label: "How it works", href: "#howitworks"},
 	{label: "Options", href: "#options"},
 	{label: "Testimonials", href: "#testimonials"},
-	{label: "Contact", href: "#contact"},
 ];
 
 export const features = [
@@ -176,4 +175,25 @@ export const testimonials = [
 		image: user9,
 		text: "The prosthetics, creature work, and FX make-up were so realistic, even our actors were amazed.",
 	},
+];
+
+export const resourcesLinks = [
+	{href: "#", text: "Getting Started"},
+	{href: "#", text: "Documentation"},
+	{href: "#", text: "Tutorials"},
+	{href: "#", text: "Community Forums"},
+];
+
+export const platformLinks = [
+	{href: "#", text: "Features"},
+	{href: "#", text: "Support"},
+	{href: "#", text: "Downloads"},
+	{href: "#", text: "Updates"},
+];
+
+export const communityLinks = [
+	{href: "#", text: "Events"},
+	{href: "#", text: "Meetups"},
+	{href: "#", text: "Conferences"},
+	{href: "#", text: "Jobs"},
 ];

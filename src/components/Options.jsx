@@ -4,7 +4,7 @@ import {pricingOptions} from "../constants";
 const Options = () => {
 	return (
 		<section id="options">
-			<div className="mt-20">
+			<div className="mt-20 pt-20">
 				<h2 className="text-2xl sm:text-4xl lg:text-5xl text-center my-8 tracking-wider">
 					Options
 				</h2>
@@ -32,7 +32,7 @@ const Options = () => {
 									))}
 								</ul>
 								<a
-									href="#contact"
+									href="#"
 									className="inline-flex justify-center items-center text-center w-full h-12 p-3 mt-8 border border-purple-400 rounded-xl tracking-tight text-xl hover:bg-purple-800  hover:scale-108 transition duration-200">
 									Get Quote
 								</a>
