@@ -3,7 +3,7 @@ import {features} from "../constants";
 const Features = () => {
 	return (
 		<section id="features">
-			<div className="relative mt-20 pt-20 border-b border-purple-800 min-h-[50rem]">
+			<div className="relative mt-20 pt-28 sm:pt-20 border-b border-purple-800 min-h-[50rem]">
 				<div className="text-center">
 					<h2 className="text-2xl sm:text-4xl lg:text-5xl mt-8 lg:mt-12 tracking-wide">
 						Explore world-class{" "}
