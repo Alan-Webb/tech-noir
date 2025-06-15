@@ -14,11 +14,11 @@ const Hero = () => {
 				Crafting unforgettable worlds through cutting-edge special effects and
 				visionary make-up for sci-fi and fantasy films.
 			</p>
-			<div className="flex justify-center my-10">
+			<div className="flex justify-center my-4">
 				<a
-					href="#"
+					href="#options"
 					className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-4 mx-3 rounded-md">
-					Get a quote
+					View Options
 				</a>
 			</div>
 			<div className="flex mt-10 justify-center">
