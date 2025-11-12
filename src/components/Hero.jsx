@@ -26,6 +26,7 @@ const Hero = () => {
 					autoPlay
 					loop
 					muted
+					loading="eager"
 					className="rounded-lg w-1/2 border border-purple-700 shadow-purple-400 mx-2 my-2">
 					<source src={video1} type="video/mp4"></source>
 				</video>
@@ -33,6 +34,7 @@ const Hero = () => {
 					autoPlay
 					loop
 					muted
+					loading="eager"
 					className="rounded-lg w-1/2 border border-purple-700 shadow-purple-400 mx-2 my-2">
 					<source src={video2} type="video/mp4"></source>
 				</video>
