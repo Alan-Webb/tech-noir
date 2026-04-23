@@ -1,6 +1,71 @@
-import {testimonials} from "../constants";
+import user1 from "../assets/user1.webp";
+import user2 from "../assets/user2.webp";
+import user3 from "../assets/user3.webp";
+import user4 from "../assets/user4.webp";
+import user5 from "../assets/user5.webp";
+import user6 from "../assets/user6.webp";
+import user7 from "../assets/user7.webp";
+import user8 from "../assets/user8.webp";
+import user9 from "../assets/user9.webp";
 
 const Testimonials = () => {
+	const testimonials = [
+		{
+			user: "Sarah Lin",
+			company: "Nebula Films",
+			image: user1,
+			text: "Tech-Noir's effects brought our alien world to life. Their attention to detail is unmatched.",
+		},
+		{
+			user: " Jared Mason",
+			company: "Starforge Studios",
+			image: user2,
+			text: "From prosthetics to stunning creature designs, Tech-Noir delivered beyond expectations.",
+		},
+		{
+			user: "Leila Grant",
+			company: "Quantum Stageworks",
+			image: user3,
+			text: "We needed cinematic-level effects on a tight schedule, and Tech-Noir came through flawlessly.",
+		},
+		{
+			user: "Marco Del Rio",
+			company: "Titan’s Edge Productions",
+			image: user4,
+			text: "Their make-up team transformed our cast into believable mutants. Audiences were blown away!",
+		},
+		{
+			user: "Dani Thomasson",
+			company: "Crimson Orbit",
+			image: user5,
+			text: "Tech-Noir's visionary team elevated our indie project to a professional level. Pure magic.",
+		},
+		{
+			user: "Rohan Steele",
+			company: "Starlight Syndicate",
+			image: user6,
+			text: "The realism in their sci-fi effects was jaw-dropping. Working with them was a creative joy.",
+		},
+		{
+			user: "Ellie Navarro",
+			company: "Lunar Tides TV",
+			image: user7,
+			text: "Tech-Noir didn’t just create effects—they built entire worlds. Their creativity is next-level.",
+		},
+		{
+			user: "Tom Reese",
+			company: "Apex Aurora Films",
+			image: user8,
+			text: "We threw some wild concepts at them, and they turned every one into a visual masterpiece.",
+		},
+		{
+			user: "Naomi Bell",
+			company: "Darkstream Studios",
+			image: user9,
+			text: "The prosthetics, creature work, and FX make-up were so realistic, even our actors were amazed.",
+		},
+	];
+
 	return (
 		<section id="testimonials">
 			<div className="mt-20 pt-10 tracking-wide">

@@ -1,6 +1,25 @@
-import {resourcesLinks, platformLinks, communityLinks} from "../constants";
-
 const Footer = () => {
+	const resourcesLinks = [
+		{href: "#", text: "Getting Started"},
+		{href: "#", text: "Documentation"},
+		{href: "#", text: "Tutorials"},
+		{href: "#", text: "Community Forums"},
+	];
+
+	const platformLinks = [
+		{href: "#", text: "Features"},
+		{href: "#", text: "Support"},
+		{href: "#", text: "Downloads"},
+		{href: "#", text: "Updates"},
+	];
+
+	const communityLinks = [
+		{href: "#", text: "Events"},
+		{href: "#", text: "Meetups"},
+		{href: "#", text: "Conferences"},
+		{href: "#", text: "Jobs"},
+	];
+
 	return (
 		<footer className="mt-20 border-t py-10 border-purple-800">
 			<div className="grid grid-cols-2 lg:grid-cols-3 gap-4">

@@ -1,10 +1,16 @@
 import {Menu, X} from "lucide-react";
 import {useState} from "react";
 import logo from "../assets/logo.webp";
-import {navItems} from "../constants";
 
 const Navbar = () => {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+	const navItems = [
+		{label: "Features", href: "#features"},
+		{label: "How it works", href: "#howitworks"},
+		{label: "Options", href: "#options"},
+		{label: "Testimonials", href: "#testimonials"},
+	];
 
 	const toggleNavbar = () => {
 		setMobileMenuOpen(!mobileMenuOpen);
@@ -15,10 +21,12 @@ const Navbar = () => {
 			<div className="container px-4 m-auto relative text-sm">
 				<div className="flex justify-around items-center">
 					<div className="flex items-center flex-shrink-0">
+						{/* Logo */}
 						<img className="h-10 w-10 mr-2" src={logo} alt="logo" />
 						<span className="text-xl tracking-tight text-purple-400 ms-3">
 							Tech-Noir
 						</span>
+						{/* Desktop Navigation */}
 					</div>
 					<ul className="hidden lg:flex ml-14 space-x-12">
 						{navItems.map((item, index) => (

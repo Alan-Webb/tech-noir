@@ -1,7 +1,42 @@
 import {CheckCircle2} from "lucide-react";
-import {pricingOptions} from "../constants";
 
 const Options = () => {
+	const pricingOptions = [
+		{
+			title: "Starter FX Package",
+			description:
+				"Perfect for indie productions or short films needing focused, high-quality effects.",
+			features: [
+				"Custom design of one creature, character, or effect element",
+				"Basic prosthetic make-up and practical application",
+				"Up to 2 days of on-set effects supervision",
+				"Post-production VFX consultation and touch-up guidance",
+			],
+		},
+		{
+			title: "Cinematic",
+			description:
+				"Ideal for feature films or streaming projects with multiple characters and varying set-pieces.",
+			features: [
+				"Full concept development and design for up to 3 key effects",
+				"Advanced prosthetics, make-up, and physical fabrication",
+				"Up to 5 days of on-set support and application",
+				"Seamless integration planning with your post-production VFX team",
+			],
+		},
+		{
+			title: "World-Building",
+			description:
+				"A complete visual effects solution for large-scale sci-fi and fantasy productions.",
+			features: [
+				"World and character design from concept to screen",
+				"Custom prosthetics, costumes, and digital assets",
+				"Full-time on-set FX supervision for major sequences",
+				"Collaborative workflow across pre-production, shooting, and post",
+			],
+		},
+	];
+
 	return (
 		<section id="options">
 			<div className="mt-20 pt-20">
