@@ -68,6 +68,12 @@ const Footer = () => {
 						))}
 					</ul>
 				</div>
+				{/* Copyright */}
+				<div>
+					<p className="text-sm text-center font-medium mb-2">
+						&copy; {new Date().getFullYear()} Tech Noir All Rights Reserved
+					</p>
+				</div>
 			</div>
 		</footer>
 	);
